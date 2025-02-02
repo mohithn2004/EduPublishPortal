@@ -4,7 +4,7 @@
 EduPublishPortal is a web-based platform where researchers, academicians, and students can **upload, share, and explore** academic publications 📄. Whether it's a **conference paper, research paper, or any other scholarly work**, this platform helps in fostering knowledge-sharing and collaboration.  
 
 ## ✨ Features  
-✅ **User Authentication**: Secure login & registration system 🔒  
+✅ **User Authentication**: Secure login system 🔒  
 ✅ **Upload Publications**: Share research papers, conference papers, and more 📑  
 ✅ **Explore & Reference**: Browse through publications for research purposes 🔍  
 ✅ **Tech-Driven**: Built with modern web technologies 💻  
@@ -32,14 +32,13 @@ cd EduPublishPortal
 
 #### 2️⃣ Backend Setup  
 ```sh
-cd backend
+cd src/components
 npm install
-node server.js
+node backend.js
 ```
 
 #### 3️⃣ Frontend Setup  
 ```sh
-cd frontend
 npm install
 npm start
 ```
